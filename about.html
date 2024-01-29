@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>task 2 about</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body id="abot_body">
+    <header>   
+        <nav>
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="./index.html">Homepage</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./resume.html">Resume</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>about my personal life:</h2>
+    <p>age: 28</p>
+    <p>height: 178 cm</p>
+    <p>Marital status: Single</p>
+    <p>hobbies: Reading, climbing, hiking, Arduino, cooking</p>
+    <div class="hobbies">
+        <h3>climbing:</h3>
+        <div class="pis_about">
+            <img src="./pics/טיפוס.jpg" alt="תמונה שלי מטפס">
+            <img src="./pics/טיפוס מערה.jpg" alt="טיפוס במערה">
+        </div>
+    </div>
+    
+    <div class="hobbies">
+        <h3>hiking:</h3>
+        <div class="pis_about">
+            <img src="./pics/טיול.jpg" alt="תמונה מטיול">
+            <img src="./pics/פיקניק.jpg" alt="תמונה מפיקניק">
+        </div>
+    </div>
+    <span></span>
+
+    <div class="hobbies">
+        <h3>cooking:</h3>
+        <div  class="pis_about">
+            <img src="./pics/גלידה.jpg" alt="גלידה" >           
+            <img src="./pics/חצ'פורי.jpg" alt="חצ'פורי">
+            <img src="./pics/ראמן.jpg" alt="ראמן">
+        </div>
+    </div>
+    
+
+    <div class="hobbies">
+        <h3>Social:</h3>
+        <div  class="Social">
+            <a href="https://www.linkedin.com/in/zvimeir?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <img src="./pics/לינקדין.png" alt="לינקדין" >
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100000511458713&mibextid=ZbWKwL">
+                <img src="./pics/פייסבוק.jpg" alt="פייסבוק" >
+            </a>
+            <a href="https://www.instagram.com/thvi_meir?igsh=MTFqY2V0c2Y2bWlmdg==">
+                <img src="./pics/איסטגרם מתוכן.jpg" alt="אינסטגרם" >
+            </a>
+        </div>
+    </div>
+    <script>
+        document.querySelector('.hamburger-menu').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active_menu');
+        });
+    </script>
+
+</body>
+</html>

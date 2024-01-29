@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>task 2 resume</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body id="resume_body">
+    <header>
+        <nav>
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="./index.html">Homepage</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./resume.html">Resume</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Resume</h2>
+    <div>
+        <p>Zvi Meir is a student of industrial engineering and management in Robin, he is a former officer in the innovation division in the IDF, was a team commander in the technological incubator of the Air Force and one of the founders of the multidimensional unit of the IDF.</p>
+    </div>
+    <div class="cards">
+            <div class="pik_card"><a href="https://he.wikipedia.org/wiki/%D7%97%D7%98%D7%99%D7%91%D7%AA_%D7%A9%D7%99%D7%9C%D7%95%22%D7%97"><img src="./pics/חטיבת השילוח.png" alt="סמל חטיבת השילוח"></a></div>
+            <div class="pik_card"><a href="https://www.iaf.org.il/9616-57394-he/IAF.aspx"><img src="./pics/החממה הטכנולגית.png" alt="סמל יחידה 108"></a></div>
+            <div class="pik_card"><a href="https://he.wikipedia.org/wiki/%D7%94%D7%99%D7%97%D7%99%D7%93%D7%94_%D7%94%D7%A8%D7%91-%D7%9E%D7%9E%D7%93%D7%99%D7%AA"><img src="./pics/היחידה הרב מימדית.png" alt="סמל היחידה הרב מימדית"></a></div>
+            <div class="pik_card"><a href="https://www.ruppin.ac.il/"><img src="/pics/רופין.jpeg" alt="סמל רופין"></a></div>
+    </div>
+    
+       
+    <script>
+        document.querySelector('.hamburger-menu').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active_menu');
+        });
+    </script>
+</body>
+</html>

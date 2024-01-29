@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>task 2</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body id="index_body">
+    <header>
+        <nav>
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="./index.html">Homepage</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./resume.html">Resume</a></li>
+                <li><a href="./projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Zvi Meir</h2>
+    <div>
+        <img src="./pics/zvi.jpg" alt="zvi meir" class="img_pro">
+        <p>zvi meir Born in 1995, he grew up in the village of Tal-Mensha in Samaria and always loved to travel and learn new and diverse subjects such as electronics, astronomy, physics, chemistry, history and archeology</p>
+    </div>
+   
+    <script>
+        document.querySelector('.hamburger-menu').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active_menu');
+        });
+    </script>
+</body>
+</html>
