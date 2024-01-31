@@ -58,13 +58,15 @@ p {
 .hamburger-menu {
   display: block;
   cursor: pointer;
+  background-color: #333;
+  padding: 10px;
 }
 
 .hamburger-menu span {
   display: block;
   width: 25px; 
   height: 3px; 
-  background-color: black; 
+  background-color: rgba(255, 255, 255, 0.785); 
   margin: 5px 0; 
 }
 
@@ -92,7 +94,6 @@ nav ul {
   background-color: rgba(255, 255, 255, 0.7);
   display: block;
   margin: 15px;
-
 }
 
 .pik_about img {
@@ -194,7 +195,10 @@ h3 {
           background-color: #333;
       }
     
-      
+      #projects_body img {
+        width: 80%;
+        height: auto;
+      }      
 
   }
   
@@ -217,3 +221,51 @@ h3 {
     background-position: center;
 }
 
+#projects_body {
+  background-image: url(./pics/פרויקטים.png);
+  background-position: center;
+}
+
+
+footer {
+  text-align: right;
+}
+
+footer span {
+  display: inline-block;
+  background-color: black;
+  height: 1px;
+  width: 100%;
+}
+
+.skills div {
+  background-color: rgba(255, 255, 255, 0.7);
+  display: block;
+  margin: 15px;
+}
+
+#projects_body h3 {
+  background-color: rgba(29, 24, 24, 0.7);
+  color: wheat;
+}
+
+#projects_body div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#projects_body div.skills {
+  flex-direction: column;
+}
+
+
+#projects_body div.hamburger-menu {
+  display: block;
+}
+
+#projects_body img {
+  width: 250px;
+  height: auto;
+}

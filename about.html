@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
     <title>task 2 about</title>
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -17,7 +16,7 @@
             </div>
             <ul>
                 <li><a href="./index.html">Homepage</a></li>
-                <li><a href="./about.html">About</a></li>
+                <li><a href="./about.html" class="active">About</a></li>
                 <li><a href="./resume.html">Resume</a></li>
                 <li><a href="./projects.html">Projects</a></li>
             </ul>
@@ -27,7 +26,7 @@
     <p>age: 28</p>
     <p>height: 178 cm</p>
     <p>Marital status: Single</p>
-    <p>hobbies: Reading, climbing, hiking, Arduino, cooking</p>
+    <p>hobbies: Reading, astronomy, climbing, hiking, Arduino, cooking</p>
     <div class="hobbies">
         <h3>climbing:</h3>
         <div class="pis_about">
@@ -69,6 +68,11 @@
             </a>
         </div>
     </div>
+
+    <footer>
+        <span></span>
+        <p>יצור התמונות רקע נעשה בעזרת chat GPT</p>
+    </footer>
     <script>
         document.querySelector('.hamburger-menu').addEventListener('click', function() {
             document.querySelector('nav ul').classList.toggle('active_menu');

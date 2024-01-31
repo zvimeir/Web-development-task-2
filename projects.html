@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
     <title>task 2 projects</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body id="projects_body">
     <header>
         <nav>
             <div class="hamburger-menu">
@@ -19,15 +18,73 @@
                 <li><a href="./index.html">Homepage</a></li>
                 <li><a href="./about.html">About</a></li>
                 <li><a href="./resume.html">Resume</a></li>
-                <li><a href="./projects.html">Projects</a></li>
+                <li><a href="./projects.html" class="active">Projects</a></li>
             </ul>
         </nav>
     </header>
+    <div class="skills">
+        <h3>python</h3>
+        <div>
+            <img src="./pics/סמל פייתון.png" alt="סמל פייתון">
+            <img src="/pics/קוד פייטון.jpg" alt="קוד">
+            <p>A project that performs a linear regression for stock values (did not reach results that justify investment)</p>
+        </div>
+    </div>
 
+    <div class="skills">
+        <h3>Arduino</h3>
+        <div>
+            <img src="./pics/סמל ארדואינו.jpeg" alt="סמל ארדןאינו">
+            <img src="./pics/פרויקט ארדואינו.jpg" alt="תמונת פרוייקט ארדיאינו">
+            <p>Projects mainly for this purpose using the Arduino kit</p>
+        </div>
+    </div>
+
+    <div class="skills">
+        <h3>C++</h3>
+        <div>
+            <img src="./pics/סמל CPP.png" alt="סמל CPP">
+            <p>Knowledge of programming in C++ up to the level of object-oriented programming</p>
+        </div>
+    </div>
+
+    <div class="skills">
+        <h3>C#</h3>
+        <div>
+            <img src="./pics/CS סמל.jpeg" alt="סמל C#">
+            <p>Programmer in C# including object-oriented programming and GUI</p>
+        </div>
+    </div>
+
+    <div class="skills">
+        <h3>HTML</h3>
+        <div>
+            <img src="./pics/סמל HTML.png" alt="סמל HTML">
+            <p>Building websites like this one</p>
+        </div>
+    </div>
+    <footer>
+        <span></span>
+        <p>יצור התמונות רקע נעשה בעזרת chat GPT</p>
+    </footer>
     <script>
         document.querySelector('.hamburger-menu').addEventListener('click', function() {
             document.querySelector('nav ul').classList.toggle('active_menu');
         });
     </script>
+    <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var menuItems = document.querySelectorAll('nav ul li a');
+    var currentUrl = window.location.href;
+
+    menuItems.forEach(function(item) {
+      if (item.href === currentUrl) {
+        item.classList.add('active');
+      } else {
+        item.classList.remove('active');
+      }
+    });
+  });
+</script>
 </body>
 </html>
