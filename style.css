@@ -200,6 +200,10 @@ h3 {
         height: auto;
       }      
 
+      
+    #projects_body div.hamburger-menu {
+      display: block;
+    }
   }
   
 /*רקעים*/
@@ -260,9 +264,8 @@ footer span {
   flex-direction: column;
 }
 
-
 #projects_body div.hamburger-menu {
-  display: block;
+  display: none;
 }
 
 #projects_body img {
